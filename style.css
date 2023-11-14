@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: "Poppins";
+    text-align: center;
+    margin: 20px;
+    background-image: url("./Images/puzzle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.welcome-section{
+    color: white;
+}
+.go-section{
+    color: white;
+    margin-top: 60vh;
+}
+.container{
+    font-weight: 400;
+    font-size: large;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+
+.question{
+    padding-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 30px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
